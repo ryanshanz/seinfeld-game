@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Sein;
+  src: url('FeniceStd-Regular.otf');
+  font-weight: bold;
+}
+
+
+body{
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  width: 95vw;;
+  height: 95vh;
+}
+img{
+  box-shadow: 0 0 20px white;
+}
+.costanza{
+position: absolute;
+top: 25%;
+left: 37%;  
+}
+.costanza:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.costanza:hover{
+  cursor: pointer;
+  border-radius: 12px;
+  border-color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+
+.reset_button{
+  font-family: Sein;
+  cursor: pointer;
+  position: absolute;
+  top: 5%;
+  left: 47%;    
+  color: rgba(228,2,28,255);
+  padding: 15px;
+  background-color:rgba(252,216,26,255);
+  border-radius: 12px;
+  font-size: larger;
+  text-shadow: .2px .2px black
+
+}
+.reset_button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.reset_button:hover{
+  border-radius: 12px;
+  border-color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+.logo{
+position: fixed;
+transform: rotate(.98turn);
+}
+.logo:hover{
+  cursor: pointer;
+  border-radius: 12px;
+  border-color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+.logo:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
