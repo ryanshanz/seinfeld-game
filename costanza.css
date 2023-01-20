@@ -62,8 +62,8 @@ left: 37%;
 }
 .logo{
 position: fixed;
-top: 100%;
-left: 100%;
+top: 3.5%;
+left: .5%;
 transform: rotate(.98turn);
 }
 .logo:hover{
