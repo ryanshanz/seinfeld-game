@@ -18,13 +18,14 @@ body{
 }
 img{
   box-shadow: 0 0 20px white;
-  max-width: 100%;
-  height: auto;
+  
 }
 .costanza{
 position: fixed;
 top: 25%;
-left: 37%;  
+left: 37%; 
+max-width: 100%;
+  height: auto; 
 }
 .costanza:active {
   transform: scale(0.98);
@@ -38,6 +39,8 @@ left: 37%;
 }
 
 .reset_button{
+  max-width: 100%;
+  height: auto;
   font-family: Sein;
   cursor: pointer;
   position: fixed;
@@ -65,6 +68,8 @@ position: fixed;
 top: 3.5%;
 left: .5%;
 transform: rotate(.98turn);
+max-width: 100%;
+height: auto;
 }
 .logo:hover{
   cursor: pointer;
